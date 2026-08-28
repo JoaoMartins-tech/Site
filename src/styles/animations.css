@@ -1,0 +1,60 @@
+@keyframes spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.orbit {
+  position: absolute;
+  border-radius: 50%;
+  border: 1px dashed var(--border-strong);
+  animation-name: spin;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  transition: border-color 0.5s ease;
+}
+.orbit.reverse {
+  animation-direction: reverse;
+}
+
+.ball-anchor {
+  position: absolute;
+  inset: 0;
+}
+.ball-anchor .ball {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  border-radius: 50%;
+  background: var(--green);
+  transform: translate(-50%, -50%);
+  box-shadow: 0 0 10px var(--green-soft-2);
+  transition: background 0.5s ease, box-shadow 0.5s ease;
+}
+
+.bg-orbits {
+  position: absolute;
+  inset: 0;
+  overflow: hidden;
+  pointer-events: none;
+  z-index: 0;
+}
+.bg-orbits .orbit {
+  opacity: 0.4;
+}
+.reveal {
+  opacity: 0;
+  transform: translateY(28px);
+  transition: opacity 0.8s cubic-bezier(0.2, 0.7, 0.2, 1),
+    transform 0.8s cubic-bezier(0.2, 0.7, 0.2, 1);
+}
+.reveal.in-view {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.about-text.fade,
+.tags.fade {
+  opacity: 0;
+  transform: translateY(6px);
+}

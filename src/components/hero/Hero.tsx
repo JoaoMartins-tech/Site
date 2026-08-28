@@ -18,7 +18,12 @@ export default function Hero() {
             <a href="#projetos" className="btn btn-primary">
               {t('hero.btnProjects')}
             </a>
-            <a href="#" className="btn btn-outline">
+            
+              href="https://forms.gle/ais9GN5gSCi3oVKw8"
+              className="btn btn-outline"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
               {t('hero.btnResume')}
             </a>
           </div>

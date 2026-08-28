@@ -27,7 +27,7 @@ export default function Recommendations() {
         <div className="rec-grid">
           <div className={`rec-card ${card.className}`} ref={card.ref}>
             <div className="rec-quote">"</div>
-            <p className="rec-text">Franklin, vai fazer a recomendação ainda.</p>
+            <p className="rec-text">Trabalhar com João foi inspirador. Ele sempre trouxe soluções criativas e eficientes em projetos de dados e automação, mostrando domínio técnico e visão inovadora. Além disso, João tem uma forma clara e envolvente de se comunicar, sabe apresentar suas ideias com confiança e consegue transmitir conceitos complexos de maneira acessível. Essa habilidade de unir conhecimento técnico com excelente comunicação torna o trabalho em equipe muito mais produtivo e motivador.</p>
             <div className="rec-person">
               <div className="rec-avatar">FD</div>
               <div>

@@ -48,7 +48,7 @@ export default function ProjectCard({ project }: { project: Project }) {
             <span key={s}>{s}</span>
           ))}
         </div>
-        <a href="#" className="https://github.com/JoaoMartins-tech/HOPE-agro-robot">
+        <a href="#" className="project-link">
           {t('projects.viewMore')}
         </a>
       </div>

@@ -24,7 +24,7 @@ export default function Hero() {
               target="_blank"
               rel="noopener noreferrer"
             >
-              {t('hero.btnResume')}
+              Currículo
             </a>
           </div>
         </div>

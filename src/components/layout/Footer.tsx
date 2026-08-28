@@ -26,7 +26,7 @@ export default function Footer() {
             </a>
             
               className="social-btn"
-              href="https://www.linkedin.com/in/jo%C3%A3o-martins-/"
+              href="https://www.linkedin.com/in/joão-martins-/"
               target="_blank"
               rel="noopener noreferrer"
               aria-label="LinkedIn"
